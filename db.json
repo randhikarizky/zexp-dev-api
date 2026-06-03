@@ -256,6 +256,28 @@
       "phone": "081234567890",
       "email": "randhika@alto.id",
       "address": "Jl. Merdeka No. 1, Ciledug, Tangerang"
+    },
+    {
+      "id": "PI-002",
+      "userId": "USR-002",
+      "nik": "3275010101900002",
+      "birthPlace": "Jakarta",
+      "birthDate": "1995-08-12",
+      "gender": "perempuan",
+      "phone": "081234567891",
+      "email": "khansa@alto.id",
+      "address": "Jl. Sudirman No. 12, Jakarta"
+    },
+    {
+      "id": "PI-003",
+      "userId": "USR-003",
+      "nik": "3275010101900003",
+      "birthPlace": "Cianjur",
+      "birthDate": "1997-03-24",
+      "gender": "laki-laki",
+      "phone": "081234567892",
+      "email": "naufal@asqi.id",
+      "address": "Jl. Raya Cianjur No. 45, Cianjur"
     }
   ],
   "employmentInfo": [
@@ -269,6 +291,28 @@
       "workArea": "Area Ciledug",
       "workLocation": "Site Ciledug",
       "workUnit": "Unit Alpha"
+    },
+    {
+      "id": "EI-002",
+      "userId": "USR-002",
+      "joinDate": "2022-05-20",
+      "contractStatus": "kontrak",
+      "contractExpiry": "2026-05-20",
+      "supervisorName": "Budi Santoso",
+      "workArea": "Area Jakarta",
+      "workLocation": "Site Jakarta",
+      "workUnit": "Unit Beta"
+    },
+    {
+      "id": "EI-003",
+      "userId": "USR-003",
+      "joinDate": "2023-01-10",
+      "contractStatus": "magang",
+      "contractExpiry": "2026-07-10",
+      "supervisorName": "Budi Santoso",
+      "workArea": "Area Cianjur",
+      "workLocation": "Site Cianjur",
+      "workUnit": "Unit Gamma"
     }
   ],
   "documents": [
@@ -315,6 +359,102 @@
       "label": "BPJS Ketenagakerjaan",
       "documentNumber": "9870000123456",
       "issueDate": "2021-03-15",
+      "expiryDate": null,
+      "status": "aktif",
+      "fileUrl": null,
+      "daysUntilExpiry": null
+    },
+    {
+      "id": "DOC-005",
+      "userId": "USR-002",
+      "type": "ktp",
+      "label": "KTP",
+      "documentNumber": "3275010101900002",
+      "issueDate": "2020-08-12",
+      "expiryDate": "2030-08-12",
+      "status": "aktif",
+      "fileUrl": null,
+      "daysUntilExpiry": 1500
+    },
+    {
+      "id": "DOC-006",
+      "userId": "USR-002",
+      "type": "sim",
+      "label": "SIM A",
+      "documentNumber": "SIM-A-234567",
+      "issueDate": "2022-06-01",
+      "expiryDate": "2027-06-15",
+      "status": "aktif",
+      "fileUrl": null,
+      "daysUntilExpiry": 365
+    },
+    {
+      "id": "DOC-007",
+      "userId": "USR-002",
+      "type": "bpjs-kesehatan",
+      "label": "BPJS Kesehatan",
+      "documentNumber": "0001234567891",
+      "issueDate": "2022-05-20",
+      "expiryDate": null,
+      "status": "aktif",
+      "fileUrl": null,
+      "daysUntilExpiry": null
+    },
+    {
+      "id": "DOC-008",
+      "userId": "USR-002",
+      "type": "bpjs-ketenagakerjaan",
+      "label": "BPJS Ketenagakerjaan",
+      "documentNumber": "9870000123457",
+      "issueDate": "2022-05-20",
+      "expiryDate": null,
+      "status": "aktif",
+      "fileUrl": null,
+      "daysUntilExpiry": null
+    },
+    {
+      "id": "DOC-009",
+      "userId": "USR-003",
+      "type": "ktp",
+      "label": "KTP",
+      "documentNumber": "3275010101900003",
+      "issueDate": "2021-03-24",
+      "expiryDate": "2031-03-24",
+      "status": "aktif",
+      "fileUrl": null,
+      "daysUntilExpiry": 1800
+    },
+    {
+      "id": "DOC-010",
+      "userId": "USR-003",
+      "type": "sim",
+      "label": "SIM C",
+      "documentNumber": "SIM-C-345678",
+      "issueDate": "2023-05-01",
+      "expiryDate": "2028-05-15",
+      "status": "aktif",
+      "fileUrl": null,
+      "daysUntilExpiry": 730
+    },
+    {
+      "id": "DOC-011",
+      "userId": "USR-003",
+      "type": "bpjs-kesehatan",
+      "label": "BPJS Kesehatan",
+      "documentNumber": "0001234567892",
+      "issueDate": "2023-01-10",
+      "expiryDate": null,
+      "status": "aktif",
+      "fileUrl": null,
+      "daysUntilExpiry": null
+    },
+    {
+      "id": "DOC-012",
+      "userId": "USR-003",
+      "type": "bpjs-ketenagakerjaan",
+      "label": "BPJS Ketenagakerjaan",
+      "documentNumber": "9870000123458",
+      "issueDate": "2023-01-10",
       "expiryDate": null,
       "status": "aktif",
       "fileUrl": null,
@@ -370,6 +510,64 @@
           "description": null
         }
       ]
+    },
+    {
+      "id": "TRN-002",
+      "userId": "USR-002",
+      "skiCertifications": [
+        {
+          "id": "SKI-002",
+          "type": "Gada Pratama",
+          "certNumber": "GP-2023-00123",
+          "issueDate": "2023-05-10",
+          "expiryDate": "2026-05-10",
+          "issuingBody": "POLRI",
+          "status": "aktif"
+        }
+      ],
+      "securityCertifications": [],
+      "trainingHistory": [
+        {
+          "id": "TR-003",
+          "name": "Pelatihan Kesamaptaan",
+          "type": "internal",
+          "organizer": "PT. Ziebar Security",
+          "startDate": "2022-06-01",
+          "endDate": "2022-06-07",
+          "location": "Pusdiklat Bogor",
+          "certificateUrl": null,
+          "description": "Pelatihan kesamaptaan dan disiplin dasar."
+        }
+      ]
+    },
+    {
+      "id": "TRN-003",
+      "userId": "USR-003",
+      "skiCertifications": [
+        {
+          "id": "SKI-003",
+          "type": "Gada Pratama",
+          "certNumber": "GP-2024-00234",
+          "issueDate": "2024-02-15",
+          "expiryDate": "2027-02-15",
+          "issuingBody": "POLRI",
+          "status": "aktif"
+        }
+      ],
+      "securityCertifications": [],
+      "trainingHistory": [
+        {
+          "id": "TR-004",
+          "name": "Pelatihan Satpam Dasar",
+          "type": "eksternal",
+          "organizer": "POLRES Cianjur",
+          "startDate": "2023-11-01",
+          "endDate": "2023-11-15",
+          "location": "Mapolres Cianjur",
+          "certificateUrl": null,
+          "description": "Pendidikan dasar Satpam kualifikasi Gada Pratama."
+        }
+      ]
     }
   ],
   "discipline": [
@@ -387,6 +585,18 @@
           "awardedBy": "Manajemen PT. Ziebar Security"
         }
       ]
+    },
+    {
+      "id": "DSC-002",
+      "userId": "USR-002",
+      "warningLetters": [],
+      "achievements": []
+    },
+    {
+      "id": "DSC-003",
+      "userId": "USR-003",
+      "warningLetters": [],
+      "achievements": []
     }
   ],
   "incidents": [
