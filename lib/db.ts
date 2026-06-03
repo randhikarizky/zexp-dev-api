@@ -39,6 +39,7 @@ export type Attendance = {
   lat: number;
   lng: number;
   photoUrl?: string;
+  checkOutPhotoUrl?: string | null;
 };
 
 export type Report = {
@@ -51,6 +52,22 @@ export type Report = {
   shiftId: string;
   notes?: string;
   createdAt: string;
+  [key: string]: unknown;
+};
+
+export type Incident = {
+  id: string;
+  userId: string;
+  type: string;
+  title: string;
+  status: string;
+  date: string;
+  location: string;
+  lat: number;
+  lng: number;
+  createdAt: string;
+  chronological: string;
+  timeline: Record<string, unknown>[];
   [key: string]: unknown;
 };
 
@@ -145,6 +162,7 @@ export type DbSchema = {
   attendances: Attendance[];
   reports: Report[];
   checklists: Checklist[];
+  incidents: Incident[];
   // ── Phase 4 ──────────────────────────────────────────
   profile: PersonnelProfile[];
   personalInfo: PersonalInfo[];
@@ -355,7 +373,8 @@ const defaultDb: DbSchema = {
   employmentInfo: [],
   documents: [],
   training: [],
-  discipline: []
+  discipline: [],
+  incidents: []
 };
 
 export function readDb(): DbSchema {

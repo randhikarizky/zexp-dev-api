@@ -112,6 +112,18 @@
       "lat": -6.23346,
       "lng": 106.7452866,
       "photoUrl": "file:///data/user/0/host.exp.exponent/cache/Camera/d88a1899-2204-4138-bf39-07a89295e41a.jpg"
+    },
+    {
+      "id": "ATD-1780508984091",
+      "userId": "USR-001",
+      "date": "2026-06-03",
+      "shiftId": "shift-b",
+      "checkIn": "2026-06-03T17:49:44.089Z",
+      "checkOut": null,
+      "status": "hadir",
+      "lat": -6.2333922,
+      "lng": 106.7452176,
+      "photoUrl": "file:///data/user/0/host.exp.exponent/cache/Camera/bd2511e7-88f8-4589-96bf-bc5327d108ae.jpg"
     }
   ],
   "reports": [
