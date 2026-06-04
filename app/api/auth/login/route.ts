@@ -26,7 +26,7 @@ export async function POST(request: NextRequest) {
 
   return jsonResponse(
     {
-      token: `mock_jwt_${Date.now()}`,
+      token: `mock_jwt_${user.id}_${Date.now()}`,
       user,
     },
     200,

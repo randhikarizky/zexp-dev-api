@@ -3,7 +3,7 @@
     {
       "id": "USR-001",
       "nama": "Randhika Rizkyaldi",
-      "jabatan": "Senior Security",
+      "jabatan": "Supervisor (TAD)",
       "site": "Site Ciledug",
       "siteId": "SIT-001",
       "pos": "Pos 2",
@@ -12,20 +12,47 @@
     {
       "id": "USR-002",
       "nama": "Khansa Nitisara Ramadhani",
-      "jabatan": "Security Officer",
-      "site": "Site Jakarta",
-      "siteId": "SIT-002",
+      "jabatan": "Security Officer (TAD)",
+      "site": "Site Ciledug",
+      "siteId": "SIT-001",
       "pos": "Pos 1",
       "email": "khansa@alto.id"
     },
     {
       "id": "USR-003",
       "nama": "Ahmad Naufal",
-      "jabatan": "Security Officer",
+      "jabatan": "Security Officer (TAD)",
       "site": "Site Cianjur",
       "siteId": "SIT-003",
       "pos": "Pos 1",
       "email": "naufal@asqi.id"
+    },
+    {
+      "id": "USR-004",
+      "nama": "Agustiar Fajar",
+      "jabatan": "PIC",
+      "site": "Site Ciledug",
+      "siteId": "SIT-001",
+      "pos": "Pos Utama",
+      "email": "agustiar@alto.id"
+    },
+    {
+      "id": "USR-005",
+      "nama": "Aksan Januar",
+      "jabatan": "PIC",
+      "site": "Site Jakarta",
+      "siteId": "SIT-002",
+      "pos": "Pos Utama",
+      "email": "aksan@alto.id"
+    },
+    {
+      "id": "USR-006",
+      "nama": "Nur Avni",
+      "jabatan": "PIC",
+      "site": "Site Cianjur",
+      "siteId": "SIT-003",
+      "pos": "Pos Utama",
+      "email": "avni@alto.id"
     }
   ],
   "shifts": [
@@ -243,6 +270,71 @@
       "position": "Senior Security Officer",
       "bpjsKesehatan": "0001234567890",
       "bpjsKetenagakerjaan": "9870000123456"
+    },
+    {
+      "id": "USR-002",
+      "employeeNumber": "SEC-2022-002",
+      "name": "Khansa Nitisara Ramadhani",
+      "photoUrl": null,
+      "level": "Anggota",
+      "status": "aktif",
+      "workLocation": "Site Ciledug",
+      "workUnit": "Unit Alpha",
+      "position": "Security Officer",
+      "bpjsKesehatan": "0001234567891",
+      "bpjsKetenagakerjaan": "9870000123457"
+    },
+    {
+      "id": "USR-003",
+      "employeeNumber": "SEC-2023-003",
+      "name": "Ahmad Naufal",
+      "photoUrl": null,
+      "level": "Anggota",
+      "status": "aktif",
+      "workLocation": "Site Cianjur",
+      "workUnit": "Unit Gamma",
+      "position": "Security Officer",
+      "bpjsKesehatan": "0001234567892",
+      "bpjsKetenagakerjaan": "9870000123458"
+    },
+    {
+      "id": "USR-004",
+      "employeeNumber": "SEC-2024-004",
+      "name": "Agustiar Fajar",
+      "photoUrl": null,
+      "level": "PIC",
+      "status": "aktif",
+      "workLocation": "Site Ciledug",
+      "workUnit": "Unit Alpha",
+      "position": "PIC Security",
+      "bpjsKesehatan": "0001234567893",
+      "bpjsKetenagakerjaan": "9870000123459"
+    },
+    {
+      "id": "USR-005",
+      "employeeNumber": "SEC-2024-005",
+      "name": "Aksan Januar",
+      "photoUrl": null,
+      "level": "PIC",
+      "status": "aktif",
+      "workLocation": "Site Jakarta",
+      "workUnit": "Unit Beta",
+      "position": "PIC Security",
+      "bpjsKesehatan": "0001234567894",
+      "bpjsKetenagakerjaan": "9870000123460"
+    },
+    {
+      "id": "USR-006",
+      "employeeNumber": "SEC-2024-006",
+      "name": "Nur Avni",
+      "photoUrl": null,
+      "level": "PIC",
+      "status": "aktif",
+      "workLocation": "Site Cianjur",
+      "workUnit": "Unit Gamma",
+      "position": "PIC Security",
+      "bpjsKesehatan": "0001234567895",
+      "bpjsKetenagakerjaan": "9870000123461"
     }
   ],
   "personalInfo": [
@@ -278,6 +370,39 @@
       "phone": "081234567892",
       "email": "naufal@asqi.id",
       "address": "Jl. Raya Cianjur No. 45, Cianjur"
+    },
+    {
+      "id": "PI-004",
+      "userId": "USR-004",
+      "nik": "3275010101900004",
+      "birthPlace": "Tangerang",
+      "birthDate": "1992-04-10",
+      "gender": "laki-laki",
+      "phone": "081234567893",
+      "email": "agustiar@alto.id",
+      "address": "Jl. Ciledug Indah No. 4, Tangerang"
+    },
+    {
+      "id": "PI-005",
+      "userId": "USR-005",
+      "nik": "3275010101900005",
+      "birthPlace": "Jakarta",
+      "birthDate": "1994-01-20",
+      "gender": "laki-laki",
+      "phone": "081234567894",
+      "email": "aksan@alto.id",
+      "address": "Jl. Kebayoran Lama No. 5, Jakarta"
+    },
+    {
+      "id": "PI-006",
+      "userId": "USR-006",
+      "nik": "3275010101900006",
+      "birthPlace": "Cianjur",
+      "birthDate": "1996-11-12",
+      "gender": "perempuan",
+      "phone": "081234567895",
+      "email": "avni@alto.id",
+      "address": "Jl. Raya Cianjur No. 6, Cianjur"
     }
   ],
   "employmentInfo": [
@@ -299,9 +424,9 @@
       "contractStatus": "kontrak",
       "contractExpiry": "2026-05-20",
       "supervisorName": "Budi Santoso",
-      "workArea": "Area Jakarta",
-      "workLocation": "Site Jakarta",
-      "workUnit": "Unit Beta"
+      "workArea": "Area Ciledug",
+      "workLocation": "Site Ciledug",
+      "workUnit": "Unit Alpha"
     },
     {
       "id": "EI-003",
@@ -309,6 +434,39 @@
       "joinDate": "2023-01-10",
       "contractStatus": "magang",
       "contractExpiry": "2026-07-10",
+      "supervisorName": "Budi Santoso",
+      "workArea": "Area Cianjur",
+      "workLocation": "Site Cianjur",
+      "workUnit": "Unit Gamma"
+    },
+    {
+      "id": "EI-004",
+      "userId": "USR-004",
+      "joinDate": "2024-01-15",
+      "contractStatus": "tetap",
+      "contractExpiry": null,
+      "supervisorName": "Budi Santoso",
+      "workArea": "Area Ciledug",
+      "workLocation": "Site Ciledug",
+      "workUnit": "Unit Alpha"
+    },
+    {
+      "id": "EI-005",
+      "userId": "USR-005",
+      "joinDate": "2024-02-10",
+      "contractStatus": "tetap",
+      "contractExpiry": null,
+      "supervisorName": "Budi Santoso",
+      "workArea": "Area Jakarta",
+      "workLocation": "Site Jakarta",
+      "workUnit": "Unit Beta"
+    },
+    {
+      "id": "EI-006",
+      "userId": "USR-006",
+      "joinDate": "2024-03-01",
+      "contractStatus": "tetap",
+      "contractExpiry": null,
       "supervisorName": "Budi Santoso",
       "workArea": "Area Cianjur",
       "workLocation": "Site Cianjur",
@@ -459,6 +617,42 @@
       "status": "aktif",
       "fileUrl": null,
       "daysUntilExpiry": null
+    },
+    {
+      "id": "DOC-013",
+      "userId": "USR-004",
+      "type": "ktp",
+      "label": "KTP",
+      "documentNumber": "3275010101900004",
+      "issueDate": "2022-04-10",
+      "expiryDate": "2032-04-10",
+      "status": "aktif",
+      "fileUrl": null,
+      "daysUntilExpiry": 2200
+    },
+    {
+      "id": "DOC-014",
+      "userId": "USR-005",
+      "type": "ktp",
+      "label": "KTP",
+      "documentNumber": "3275010101900005",
+      "issueDate": "2024-01-20",
+      "expiryDate": "2034-01-20",
+      "status": "aktif",
+      "fileUrl": null,
+      "daysUntilExpiry": 2800
+    },
+    {
+      "id": "DOC-015",
+      "userId": "USR-006",
+      "type": "ktp",
+      "label": "KTP",
+      "documentNumber": "3275010101900006",
+      "issueDate": "2024-03-01",
+      "expiryDate": "2034-03-01",
+      "status": "aktif",
+      "fileUrl": null,
+      "daysUntilExpiry": 2900
     }
   ],
   "training": [
@@ -568,6 +762,27 @@
           "description": "Pendidikan dasar Satpam kualifikasi Gada Pratama."
         }
       ]
+    },
+    {
+      "id": "TRN-004",
+      "userId": "USR-004",
+      "skiCertifications": [],
+      "securityCertifications": [],
+      "trainingHistory": []
+    },
+    {
+      "id": "TRN-005",
+      "userId": "USR-005",
+      "skiCertifications": [],
+      "securityCertifications": [],
+      "trainingHistory": []
+    },
+    {
+      "id": "TRN-006",
+      "userId": "USR-006",
+      "skiCertifications": [],
+      "securityCertifications": [],
+      "trainingHistory": []
     }
   ],
   "discipline": [
@@ -597,6 +812,24 @@
       "userId": "USR-003",
       "warningLetters": [],
       "achievements": []
+    },
+    {
+      "id": "DSC-004",
+      "userId": "USR-004",
+      "warningLetters": [],
+      "achievements": []
+    },
+    {
+      "id": "DSC-005",
+      "userId": "USR-005",
+      "warningLetters": [],
+      "achievements": []
+    },
+    {
+      "id": "DSC-006",
+      "userId": "USR-006",
+      "warningLetters": [],
+      "achievements": []
     }
   ],
   "incidents": [
@@ -605,7 +838,7 @@
       "userId": "USR-001",
       "type": "work_accident",
       "title": "Kaki Terkilir di Tangga Lobby",
-      "status": "investigating",
+      "status": "closed",
       "date": "2026-06-01",
       "location": "Tangga Utama Lobby Barat",
       "lat": -6.2334,
@@ -630,8 +863,16 @@
           "notes": "Tim HSE memulai investigasi mengenai kondisi licin di tangga utama.",
           "updatedAt": "2026-06-01T11:00:00.000Z",
           "updatedBy": "Safety Officer Admin"
+        },
+        {
+          "status": "closed",
+          "notes": "Tindak lanjut oleh supervisor: Telah diberikan pertolongan pertama, kondisi tangga sudah dibersihkan (Tindakan: Menghimbau petugas agar berhati-hati saat hujan)",
+          "updatedAt": "2026-06-04T17:35:05.796Z",
+          "updatedBy": "Randhika Rizkyaldi"
         }
-      ]
+      ],
+      "investigationNotes": "Telah diberikan pertolongan pertama, kondisi tangga sudah dibersihkan",
+      "followUpAction": "Menghimbau petugas agar berhati-hati saat hujan"
     }
   ]
 }
