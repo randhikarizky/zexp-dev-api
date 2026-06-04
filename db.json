@@ -243,6 +243,32 @@
       "position": "Senior Security Officer",
       "bpjsKesehatan": "0001234567890",
       "bpjsKetenagakerjaan": "9870000123456"
+    },
+    {
+      "id": "USR-002",
+      "employeeNumber": "SEC-2022-002",
+      "name": "Khansa Nitisara Ramadhani",
+      "photoUrl": null,
+      "level": "Anggota",
+      "status": "aktif",
+      "workLocation": "Site Jakarta",
+      "workUnit": "Unit Beta",
+      "position": "Security Officer",
+      "bpjsKesehatan": "0001234567891",
+      "bpjsKetenagakerjaan": "9870000123457"
+    },
+    {
+      "id": "USR-003",
+      "employeeNumber": "SEC-2023-003",
+      "name": "Ahmad Naufal",
+      "photoUrl": null,
+      "level": "Anggota",
+      "status": "aktif",
+      "workLocation": "Site Cianjur",
+      "workUnit": "Unit Gamma",
+      "position": "Security Officer",
+      "bpjsKesehatan": "0001234567892",
+      "bpjsKetenagakerjaan": "9870000123458"
     }
   ],
   "personalInfo": [
