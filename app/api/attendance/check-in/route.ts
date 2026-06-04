@@ -4,6 +4,7 @@ import { jsonResponse, emptyResponse } from "@/lib/cors";
 import { readDb, writeDb } from "@/lib/db";
 
 type CheckInBody = {
+  userId?: string;
   shiftId?: string;
   lat?: number;
   lng?: number;
@@ -20,7 +21,7 @@ export async function POST(request: NextRequest) {
 
   const now = new Date();
   const db = readDb();
-  const userId = "USR-001";
+  const userId = body.userId || "USR-001";
 
   const newRecord = {
     id: `ATD-${Date.now()}`,

@@ -37,11 +37,11 @@ export async function POST(request: NextRequest) {
     body = {};
   }
 
-  const { type, title, notes, date, shiftId, ...rest } = body;
+  const { type, title, notes, date, shiftId, userId, ...rest } = body;
   const db = readDb();
   const newReport = {
     id: `RPT-${Date.now()}`,
-    userId: "USR-001",
+    userId: (userId as string) || "USR-001",
     status: "submitted",
     createdAt: new Date().toISOString(),
     type: type ?? "",
